@@ -1,0 +1,15 @@
+
+name: cellchat-analysis
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.6
+  - r-remotes
+  - r-matrix
+  - r-biocmanager
+  - r-irkernel
+  - python=3.12
+  - pip
+  - pip:
+      - rpy2
